@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: mongo-pvc
-  namespace: [student-name]
+  namespace: brixton
 spec:
   storageClassName: document
   accessModes:
